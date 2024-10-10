@@ -1,3 +1,10 @@
+/**
+ * @File        : NexusProxyAttach.java
+ * @Author      : 정재백
+ * @Since       : 2024-10-10
+ * @Description : 넥서스 프록시 사본 생성용 유틸
+ * @Site        : https://devlog.ntiple.com
+ **/
 package com.ntiple.nexus;
 
 import static com.ntiple.commons.Constants.UTF8;
