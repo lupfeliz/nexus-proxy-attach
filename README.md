@@ -19,6 +19,9 @@ Nexus_Proxy_Attach --> Nexus_1:원본 파일목록 요청
 관련글
 
 > Nexus 저장소 를 복사해 보자! : https://devlog.ntiple.com/1277
+> 바이너리 다운로드 [[링크](https://github.com/lupfeliz/nexus-proxy-attach/releases/download/v0.0.1/nexus-proxy-attach.jar)]
+> 소스저장소1 : https://github.com/lupfeliz/nexus-proxy-attach
+> 소스저장소2 : https://gitlab.ntiple.com/developers/nexus-proxy-attach
 
 ## 2. 준비사항
 
