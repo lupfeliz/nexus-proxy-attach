@@ -110,8 +110,8 @@ public class NexusProxyAttach {
     if (arg != null && arg.length > 3) {
       inst.testHttp(arg[0], arg[1], arg[2], arg[3]);
     } else {
-      System.out.println("USAGE: \r\n\r\njava -jar nexus-proxy-attach {원본 Nexus주소} {원본 NexusRepository명} {사본 Nexus주소} {사본 NexusRepository명}\r\n");
-      System.out.println("예제: \r\n\r\njava -jar nexus-proxy-attach http://192.168.0.2:8081 test-maven-repo http://192.168.0.2:8082 test2-maven-proxy\r\n");
+      System.out.println("USAGE: \r\n\r\njava -jar nexus-proxy-attach.jar {원본 Nexus주소} {원본 NexusRepository명} {사본 Nexus주소} {사본 NexusRepository명}\r\n");
+      System.out.println("예제: \r\n\r\njava -jar nexus-proxy-attach.jar http://192.168.0.2:8081 test-maven-repo http://192.168.0.2:8082 test2-maven-proxy\r\n");
     }
   }
 }

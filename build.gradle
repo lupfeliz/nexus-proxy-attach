@@ -13,10 +13,11 @@ plugins {
 }
 
 group = 'com.ntiple'
-version = '0.0.1'
+version = '0.0.2'
 
 java {
-  sourceCompatibility = '17'
+  sourceCompatibility = '1.8'
+  targetCompatibility = '1.8'
 }
 
 configurations {
@@ -42,7 +43,7 @@ dependencies {
   implementation 'ch.qos.logback:logback-classic:1.2.3'
   implementation 'org.apache.httpcomponents:httpclient:4.5.14'
   implementation 'org.apache.httpcomponents:httpmime:4.5.14'
-  implementation 'com.ntiple:ntiple-utils:0.0.2-10'
+  implementation 'com.ntiple:ntiple-utils:0.0.2-11'
 
   testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
   testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
